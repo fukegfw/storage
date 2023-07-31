@@ -1,0 +1,21 @@
+{
+"listen": "[]:5000",
+"protocol": "udp",
+"disable_udp": false,
+"cert": "/root/hysteria/cert.pem",
+"key": "/root/hysteria/private.key",
+"auth": {
+	"mode": "password",
+	"config": {
+	"password": "liangchao"
+	}
+},
+"alpn": "h3",
+"acl": "/root/hysteria/routes.acl",
+"recv_window_conn": 15728640,
+"recv_window_client": 67108864,
+"max_conn_client": 4096,
+"disable_mtu_discovery": true,
+"resolve_preference": "64",
+"resolver": "[2001:4860:4860::8844]:53"
+}
