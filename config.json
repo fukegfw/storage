@@ -2,8 +2,8 @@
 "listen": "[]:5000",
 "protocol": "udp",
 "disable_udp": false,
-"cert": "/root/hysteria/cert.pem",
-"key": "/root/hysteria/private.key",
+"cert": "/root/storage-main/cert.pem",
+"key": "/root/storage-main/private.key",
 "auth": {
 	"mode": "password",
 	"config": {
@@ -11,7 +11,7 @@
 	}
 },
 "alpn": "h3",
-"acl": "/root/hysteria/routes.acl",
+"acl": "/root/storage-main/routes.acl",
 "recv_window_conn": 15728640,
 "recv_window_client": 67108864,
 "max_conn_client": 4096,
